@@ -1,7 +1,7 @@
 package Lectures.Basics
 
 object ValuesVariablesTypes extends App {
-  //Values are immutable;
+   //Values are not immutable;
   // Values do not need to be defined, compiler can infer types
   val x = 42
   println(x)
@@ -17,7 +17,7 @@ object ValuesVariablesTypes extends App {
   val aDouble: Double = 3.14
 
   //variables
-  //variables are ofcourse not immutable
+  //variables are ofcourse immutable
   var aVariable: Int = 4
 
   aVariable = 5 //side effects
